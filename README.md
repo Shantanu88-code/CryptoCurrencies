@@ -46,8 +46,19 @@ Create an Elbow Curve to find the best value for k using pca DataFrame. Once def
 # Visualizing Cryptocurrencies
 1. Create a 3D scatter plot
 
+<img width="363" alt="3D" src="https://user-images.githubusercontent.com/86980240/147855915-fffb9590-7f73-44fb-a092-93cf061f62ca.png">
+
+<img width="651" alt="3d plot" src="https://user-images.githubusercontent.com/86980240/147855918-50d19339-3ac5-4cfe-a211-a55a83fff2ae.png">
+
 2. Use hvplot.table to create a data table with all the current tradable cryptocurrencies. The table should have the following columns: "CoinName", "Algorithm", "ProofType", "TotalCoinSupply", "TotalCoinsMined", "Class"
 
+<img width="638" alt="tradable currencies" src="https://user-images.githubusercontent.com/86980240/147855928-c1e78796-4002-4f33-b367-025116edf502.png">
+
 3. Create a new DataFrame that has the scaled data with the clustered_df DataFrame index and add new columns "CoinName" and "Class".
+
+<img width="316" alt="new_df" src="https://user-images.githubusercontent.com/86980240/147855938-dcb7e4e9-15de-49a1-bfd8-0f8d14337c85.png">
+
+4. <img width="642" alt="scatter_plot" src="https://user-images.githubusercontent.com/86980240/147855946-d2548a26-8975-468b-8a44-0f997093dac0.png">
+
 
  
